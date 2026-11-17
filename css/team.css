@@ -1,0 +1,62 @@
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.team-avatar {
+}
+
+.team-name {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-down-side {
+  padding: 32px 16px;
+}
+
+.team-position {
+  text-align: center;
+  color: #434455;
+  margin-bottom: 8px;
+}
+
+.list-socials-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.list-socials-icons .socials-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  transition: background-color 250ms ease-in-out;
+}
+
+.list-socials-icons .socials-icons:hover,
+.list-socials-icons .socials-icons:focus {
+  background-color: #404bbf;
+}

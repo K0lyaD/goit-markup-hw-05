@@ -1,0 +1,37 @@
+.footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+}
+
+.footer-mid-text {
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer .list-socials-icons {
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.footer .list-socials-icons .socials-icons:hover,
+.footer .list-socials-icons .socials-icons:focus {
+  background-color: #31d0aa;
+}
