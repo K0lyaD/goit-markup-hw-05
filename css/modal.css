@@ -108,6 +108,9 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 
+  color: #434455;
+  background-color: transparent;
+
   outline: transparent;
   box-sizing: border-box;
   padding: 8px 38px;
@@ -147,6 +150,7 @@
   font-size: 12px;
   line-height: 117%;
   color: #434455;
+  background-color: transparent;
   letter-spacing: 0.04em;
 
   box-sizing: border-box;
