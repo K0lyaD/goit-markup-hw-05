@@ -44,7 +44,6 @@
 .footer-right {
   width: 453px;
   margin-left: auto;
-  margin-right: 15px;
 }
 
 .footer-form {
@@ -58,7 +57,7 @@
 
 .footer-form-input {
   display: block;
-  width: 100%;
+  width: 264px;
   height: 40px;
   box-sizing: border-box;
   padding: 8px 16px;
@@ -67,8 +66,12 @@
   background-color: transparent;
   outline: transparent;
   color: #fff;
-  transition: 300ms ease-in-out;
+  transition: 250ms ease-in-out;
   transition-property: border-color;
+
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
 }
 
 .footer-form-input:focus {
@@ -99,7 +102,7 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: 300ms ease-in-out;
+  transition: 250ms ease-in-out;
   transition-property: background-color;
 }
 
