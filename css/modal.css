@@ -164,6 +164,10 @@
   transition-property: border-color;
 }
 
+.modal-form-comment-retreat {
+  margin-bottom: 16px;
+}
+
 .modal-form-comment:focus {
   border-color: #4d5ae5;
 }
