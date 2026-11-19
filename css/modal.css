@@ -145,7 +145,6 @@
 .modal-form-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-bottom: 0;
 
   font-size: 12px;
   line-height: 117%;
@@ -164,7 +163,7 @@
   transition-property: border-color;
 }
 
-.modal-form-comment-retreat {
+.modal-form-retreat {
   margin-bottom: 16px;
 }
 
